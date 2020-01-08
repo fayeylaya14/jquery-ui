@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery UI | Puzzle</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+</head>
+<body>
+    <ul id="sort">
+        <li class="sort-ui">9</li>
+        <li class="sort-ui">5</li>
+        <li class="sort-ui">2</li>
+        <li class="sort-ui">12</li>
+        <li class="sort-ui">1</li>
+        <li class="sort-ui">6</li>
+        <li class="sort-ui">4</li>
+        <li class="sort-ui">11</li>
+        <li class="sort-ui">3</li>
+        <li class="sort-ui">10</li>
+        <li class="sort-ui">8</li>
+        <li class="sort-ui">7</li>
+    </ul>
+</body>
+
+<script>
+$(document).ready(function(){
+    $("#sort").sortable();
+    // $("#sort").disableSelection();
+});
+</script>
+</html>
