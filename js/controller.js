@@ -15,7 +15,6 @@ $(document).ready(function(){
         }
         var arr = [12,8,10,2,1,9,5,11,4,7,6,3];
         var myarr = shuffleNum(arr);
-        console.log(arr);
         storeToArray(arr);
 
     function storeToArray(myarr) {
@@ -34,8 +33,6 @@ $(document).ready(function(){
         var elemArr = document.getElementsByTagName("li");
         var arrCheck = jQuery.makeArray(elemArr);
         arrCheck = arrCheck.map(data => data.innerHTML);
-        var int;
-        var len = arrCheck.length;
         var compare = isSorted(arrCheck);
         console.log(compare);
         if(compare == true) {
