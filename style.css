@@ -1,22 +1,21 @@
-#sort {
+#puzzle-container {
     list-style: none;
     width: 430px;
     border: 1px solid;
     padding: 20px;
     margin: 0 auto;
-    height: 315px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#sort li {
-    display: inline-block;
-    float: left;
+#puzzle-container li {
     width: 100px;
     height: 100px;
     background: yellow;
-    font: 600 16px/100px "Arial";
     text-align: center;
     margin: 0;
     border: 3px solid white;
+    font: 600 16px/100px "Arial";
 }
 
 .button-c {
